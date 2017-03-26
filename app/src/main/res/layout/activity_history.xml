@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="最新活动"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="?attr/colorPrimaryDark"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+
+    <Button
+        android:id="@+id/postThingButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="发布活动"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>
