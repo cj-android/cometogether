@@ -90,7 +90,6 @@ public class AsyncWorkstation
                 super.onPostExecute(bitmap);
                 MemoryCache.addBitmap(thingId, reqSize, bitmap);
                 imageView.setImageBitmap(bitmap);
-                Log.d("!!!!!!!!!!!"+bitmap.getByteCount(),bitmap.toString());
             }
         }
 
